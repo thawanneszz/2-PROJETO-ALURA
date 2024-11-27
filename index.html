@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>O Enigma do Relógio Perdido</title>
+</head>
+<body>
+  <main>
+    <!-- Passo 0 -->
+    <div class="passo ativo" id="passo-0">
+      <h1>O Enigma do Relógio Perdido</h1>
+      <p>Você recebe o pacote e sente que algo está errado. O relógio, com seus ponteiros parados em 12:15, emite uma vibração leve ao toque. Parece que ele quer te levar para algum lugar.</p>
+      <button class="btn-proximo" data-proximo="1">Examinar o relógio mais de perto</button>
+      <button class="btn-proximo" data-proximo="2">Ignorar o relógio e ligar para a polícia</button>
+    </div>
+
+    <!-- Passo 1 -->
+    <div class="passo" id="passo-1">
+      <p>Quando você examina o relógio, ele começa a girar rapidamente, e de repente tudo ao seu redor desaparece. Você acorda em um lugar desconhecido, um vale com ruínas antigas.</p>
+      <button class="btn-proximo" data-proximo="3">Explorar as ruínas</button>
+      <button class="btn-proximo" data-proximo="4">Procurar outras pessoas no vale</button>
+    </div>
+
+    <!-- Passo 2 -->
+    <div class="passo" id="passo-2">
+      <p>A polícia chega e leva o relógio para análise, mas durante a noite ele desaparece misteriosamente. Você sente que perdeu sua única chance de descobrir o que está acontecendo.</p>
+      <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+    </div>
+
+    <!-- Passo 3 -->
+    <div class="passo" id="passo-3">
+      <p>Explorando as ruínas, você encontra inscrições antigas que parecem um enigma. Há uma mensagem que fala de "três caminhos para o portal do tempo".</p>
+      <button class="btn-proximo" data-proximo="5">Seguir o caminho da esquerda</button>
+      <button class="btn-proximo" data-proximo="6">Seguir o caminho do meio</button>
+      <button class="btn-proximo" data-proximo="7">Seguir o caminho da direita</button>
+    </div>
+
+    <!-- Passo 4 -->
+    <div class="passo" id="passo-4">
+      <p>Enquanto procura por pessoas, você avista uma figura encapuzada. Ela te observa de longe e depois desaparece em meio à neblina.</p>
+      <button class="btn-proximo" data-proximo="8">Seguir a figura</button>
+      <button class="btn-proximo" data-proximo="9">Ignorar e explorar outra área</button>
+    </div>
+
+    <!-- Passo 5 -->
+    <div class="passo" id="passo-5">
+      <p>O caminho da esquerda leva a uma ponte instável sobre um rio. Você precisa decidir se atravessa ou volta.</p>
+      <button class="btn-proximo" data-proximo="10">Atravessar a ponte</button>
+      <button class="btn-proximo" data-proximo="3">Voltar e escolher outro caminho</button>
+    </div>
+
+    <!-- Passo 6 -->
+    <div class="passo" id="passo-6">
+      <p>O caminho do meio te leva a uma caverna escura, onde você encontra um baú trancado. Dentro dele, parece haver algo brilhante.</p>
+      <button class="btn-proximo" data-proximo="11">Abrir o baú</button>
+      <button class="btn-proximo" data-proximo="3">Voltar para as ruínas</button>
+    </div>
+
+    <!-- Passo 7 -->
+    <div class="passo" id="passo-7">
+      <p>O caminho da direita leva a um jardim abandonado, com estátuas que parecem te observar. No centro, há uma fonte seca.</p>
+      <button class="btn-proximo" data-proximo="12">Investigar a fonte</button>
+      <button class="btn-proximo" data-proximo="3">Voltar para as ruínas</button>
+    </div>
+
+    <!-- Passo 8 -->
+    <div class="passo" id="passo-8">
+      <p>Você segue a figura encapuzada e descobre que ela está protegendo uma entrada secreta para um templo escondido.</p>
+      <button class="btn-proximo" data-proximo="13">Entrar no templo</button>
+      <button class="btn-proximo" data-proximo="9">Ignorar e continuar explorando o vale</button>
+    </div>
+
+    <!-- Passo 9 -->
+    <div class="passo" id="passo-9">
+      <p>Explorando outra área do vale, você encontra um diário velho que menciona "o relógio como a chave do portal do tempo".</p>
+      <button class="btn-proximo" data-proximo="13">Seguir as pistas do diário</button>
+      <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+    </div>
+
+    <!-- Passo 10 -->
+    <div class="passo" id="passo-10">
+      <p>Ao atravessar a ponte, ela quebra, mas você consegue chegar ao outro lado. Há uma porta de pedra com um símbolo do relógio.</p>
+      <button class="btn-proximo" data-proximo="14">Abrir a porta</button>
+    </div>
+
+    <!-- Passo 11 -->
+    <div class="passo" id="passo-11">
+      <p>Dentro do baú, você encontra uma pedra brilhante que emite uma luz forte. Ela parece reagir ao relógio.</p>
+      <button class="btn-proximo" data-proximo="13">Usar a pedra para ativar o relógio</button>
+    </div>
+
+    <!-- Passo 12 -->
+    <div class="passo" id="passo-12">
+      <p>Investigando a fonte, você encontra um mecanismo escondido que se conecta ao relógio. Parece ser uma pista importante.</p>
+      <button class="btn-proximo" data-proximo="13">Seguir as pistas do mecanismo</button>
+    </div>
+
+    <!-- Passo 13 -->
+    <div class="passo" id="passo-13">
+      <p>Com todas as pistas, você ativa o relógio, que abre um portal do tempo. Você agora pode decidir: voltar para casa ou explorar o passado.</p>
+      <button class="btn-proximo" data-proximo="0">Voltar para casa</button>
+      <button class="btn-proximo" data-proximo="15">Explorar o passado</button>
+    </div>
+
+    <!-- Passo 15 -->
+    <div class="passo" id="passo-15">
+      <p>Você escolhe explorar o passado. Parabéns, a aventura está apenas começando!</p>
+      <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+    </div>
+  </main>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
